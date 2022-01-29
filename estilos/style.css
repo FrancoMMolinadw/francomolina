@@ -321,3 +321,33 @@ footer {
     justify-content: center;
 padding: 40px;
 }
+
+/*boostrap*/
+.contenedor-carrusel{
+    margin: 0 auto;
+   
+}
+
+
+
+.carrousel{
+    width: 600px;
+    height: 400px; ;
+}
+.contenedor-carrusel .carrousel img {
+    object-fit: cover;
+    object-position: center;
+    height: 100vh;
+}
+
+
+.navbar{
+    background-color: white;
+    max-width: 1200px;
+    margin: 0 auto;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
